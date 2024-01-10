@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+ table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: lightgray;
+    }
+    th.black {
+      background-color: black;
+      color: white;
+    }
